@@ -18,19 +18,11 @@ function App() {
     } 
   }, [])
 
-<<<<<<< HEAD
   const saveToLS = () => {
     localStorage.setItem("todos", JSON.stringify(todos))
   }
   
   const toggleFinished = () => {
-=======
-  const saveToLS = (params) => {
-    localStorage.setItem("todos", JSON.stringify(todos))
-  }
-  
-  const toggleFinished = (e) => {
->>>>>>> 34b4e21515b64069a78729faa147e23820040b12
     setShowFinished(!showFinished)
   }
   
